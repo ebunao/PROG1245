@@ -1,0 +1,87 @@
+<!--EJ Bunao ebunao3975@conestogac.on.ca-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header class="structural">
+        <h1>Contacts</h1>
+    </header>
+    <nav class="structural">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="media.html">Media</a></li>
+            
+        </ul>
+    </nav>
+    <section class="main-container">
+        <main class="structural">
+            <h2>Contact</h2>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>What section are you in?</legend>
+                        <label for="section4">Section 4</label>
+                        <input type="radio" id="section4" name="sec" value="4" required>
+                        <label for="section5">Section 5</label>
+                        <input type="radio" id="section5" name="sec" value="5" checked>
+                        <label for="section8">Section 8</label>
+                        <input type="radio" id="section8" name="sec" value="8">
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="help">What do you need help with?</label>
+                    <select id="help" name="help" required>
+                        <option value="" selected disabled>Select Option</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="both">Both (HTML & CSS)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea>
+                </div>
+                <div>
+                    <label for="human">I am human</label>
+                    <input type="checkbox" id="human" name="human" required autofocus>
+                </div>
+                <div>
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </main>
+    
+        <aside class="structural">
+          <h2>Additional Information</h2>
+              <ul>
+                  <li><a href="https://www.britannica.com/biography/Jose-Rizal"> Brittanica </a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Jos%C3%A9_Rizal"> Wikipedea </a></li>
+                  <li><a href="https://www.biography.com/political-figures/jos%C3%A9-rizal"> Biography </a></li>
+              </ul>
+          </aside>
+    </section>
+   
+    <footer class="structural">
+        <p>&copy; EJ Bunao 2023</p>
+    </footer>
+
+</body>
+</html>
+
+
